@@ -1,0 +1,49 @@
+/* Basic reset and font styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the unordered list */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for each list item */
+.nav-item {
+    margin: 0 20px;
+}
+
+/* Styling for each link */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover and active states for links */
+.nav-link:hover {
+    background-color: #575757;
+    color: #FFD700;
+}
+
+/* Focus styling for accessibility */
+.nav-link:focus {
+    outline: 2px solid #FFD700;
+    outline-offset: 4px;
+}
